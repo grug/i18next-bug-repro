@@ -1,0 +1,35 @@
+{
+  "name": "i18next-bug-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e ts,js,njk,json --watch src --ignore src/public/css/site.css --exec \"yarn run ts-node\" --files src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grug/i18next-bug-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grug/i18next-bug-repro/issues"
+  },
+  "homepage": "https://github.com/grug/i18next-bug-repro#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/nunjucks": "^3.2.6",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "i18next": "^23.15.1",
+    "i18next-fs-backend": "^2.3.2",
+    "i18next-http-middleware": "^3.6.0",
+    "nunjucks": "^3.2.4"
+  }
+}
